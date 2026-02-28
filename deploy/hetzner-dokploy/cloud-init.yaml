@@ -1,0 +1,38 @@
+#cloud-config
+
+hostname: soul-tattoo-prod
+timezone: Europe/Berlin
+
+package_update: true
+package_upgrade: true
+
+ssh_pwauth: false
+
+users:
+  - default
+
+packages:
+  - ufw
+  - fail2ban
+
+write_files:
+  - path: /etc/fail2ban/jail.d/sshd.local
+    permissions: "0644"
+    owner: root:root
+    content: |
+      [sshd]
+      enabled = true
+      port = ssh
+      maxretry = 5
+      findtime = 10m
+      bantime = 1h
+
+runcmd:
+  # Basic firewall rules
+  - ufw allow OpenSSH
+  - ufw --force enable
+
+  # Fail2ban
+  - systemctl enable --now fail2ban
+
+final_message: "Cloud-init complete. Base server hardening applied."
