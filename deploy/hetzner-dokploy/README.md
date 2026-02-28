@@ -38,7 +38,7 @@ In Dokploy:
 2. Create an application with `Docker Compose`
 3. Connect GitHub repo: `cihadkucuk/soul-tattoo-studio`
 4. Branch: `main`
-5. Compose path: `/docker-compose.yml`
+5. Compose path: `docker-compose.yml`
 
 ## 4) Configure environment variables (Dokploy UI)
 
@@ -46,7 +46,7 @@ Add these variables:
 
 - `TELEGRAM_BOT_TOKEN`
 - `TELEGRAM_CHAT_ID`
-- `DOKPLOY_DOMAIN` (example: `soultattoo.com`)
+- `DOKPLOY_DOMAIN` (example: `soultattooatelier.com`)
 
 Optional defaults:
 
@@ -85,4 +85,3 @@ For new releases:
 
 - If your canonical domain is non-www, set `DOKPLOY_DOMAIN` to non-www only.
 - If you want both `www` and non-www, add a redirect rule in Dokploy/Traefik.
-
