@@ -1,0 +1,106 @@
+Website Update Instructions
+
+1. Home Page
+	1.	Add a video background of the main text.
+	2.	In the Services section, add images for each service, 
+	3.	In the Gallery preview on the homepage, increase the number of images smaller size and 6 pictures
+	•	Include mixed images: 2 tattoos, 2 piercings, 1 courses, 1 merch.
+	4.	In the footer area (which repeats on every page):
+	•	Remove the first “Soul” block (the one with the name and description).
+	•	Keep only:
+	•	Services we offer
+	•	Contact information (address, email, working hours)
+	•	Social media / Follow Us section
+
+⸻
+
+2. Tattoo Page
+	1.	change the background, change text to Soul of Our Art
+	2.	In the Tattoo Styles section, write All Tattoo Styles, I will send it 
+	3.	Add a single button linking to the Gallery to view all tattoo works.
+	4.	In Our Services (on this page), add additional tattoo categories:
+	•	Cover-ups
+	•	Complex tattoos
+	•	Ultra-fine (thin line) tattoos
+	•	3D tattoos
+	•	White tattoos
+	•	Tattoos on difficult body areas
+	•	(General idea: emphasize that we can perform highly complex work)
+	5.	Add tattoo photos that also link to the Gallery.
+
+⸻
+
+3. Piercing Page
+	1.	Add all types of piercings
+	2.	Add more FAQ items.
+	3.	Add piercing photos - link to the gallery 
+
+⸻
+
+4. Courses Page
+	1.	Add photos or even a video if possible.
+	2.	Add text indicating that courses are taught in:
+	•	**English
+	•	Czech
+	•	Russian
+	•	Ukrainian**
+	3.	For the Advanced Course, add a note that students receive a license upon completion.
+	4.	Add a new section for Masterclasses for practicing artists:
+	•	Duration 1–2 days
+	•	We answer all questions, analyze techniques, and work with models
+	5.	Add more information about course formats:
+	•	Group courses
+	•	Pair courses
+	•	Individual courses
+	•	All materials are provided
+	•	Flexible scheduling adapted to the student
+	6.	Add that all courses include practice on models.
+	7.	Add that every lesson includes teaching, feedback, and content creation for students.
+	8.	Add that students build a ready portfolio during the course.
+	9.	Add:
+	•	Free consultation
+	•	Help choosing the right course
+	•	Opportunity to work in the studio after completing the course
+	•	Most students recoup the course within 1–2 months
+	10.	Keep the final “Contact us” button (already present).
+
+⸻
+
+5. Merch Page
+	1.	Upload product photos and add prices.
+	2.	Remove the “Add” button.
+	3.	Add a note:
+	•	All products can be purchased in the studio, or
+	•	You can message us on Instagram if you want us to ship an item.
+	4.	Add Gift Certificates to the Merch section.
+	•	Optionally make it the first item at the top.
+	•	Add text such as:
+“Surprise your loved ones — purchase a gift certificate for any amount, valid for tattoos, piercings, or even full training.”
+	•	Add photos of the gift certificates.
+
+⸻
+
+6. Artists Page
+	1.	Remove Instagram links and the “Full Bio” button.
+	2.	Update the artists’ photos, style descriptions, and add their works (you can provide them).
+	3.	Add more artists — total of eight artists.
+
+for the Gallery Page
+	1.	In the Gallery, create separate sections in the following order:
+	•	Tattoo photos
+	•	Piercing photos
+	•	Course-related photos
+	•	Merch photos
+	•	Gift Certificate photos
+	2.	Add a note that users can view more photos and more information on our Instagram.
+	3.	At the bottom of the Gallery page, keep the FAQ section.
+	4.	Remove the block about tattoo styles we specialize in — this section is not needed on the Gallery page.
+	5.	In the Blog page, I will send all topics and article texts.
+Rewrite and improve them, and then we will publish them as new blog posts.
+
+
+
+
+
+
+We value art, your comfort and time
