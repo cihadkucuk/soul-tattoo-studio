@@ -12,8 +12,13 @@ services:
       - "3000"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.soul-studio.rule=Host(`${DOKPLOY_DOMAIN}`)"
-      - "traefik.http.routers.soul-studio.entrypoints=websecure"
-      - "traefik.http.routers.soul-studio.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.soul-studio-web.rule=Host(`${DOKPLOY_DOMAIN:?set-in-dokploy-env}`)"
+      - "traefik.http.routers.soul-studio-web.entrypoints=web"
+      - "traefik.http.routers.soul-studio-web.middlewares=soul-studio-https-redirect"
+      - "traefik.http.middlewares.soul-studio-https-redirect.redirectscheme.scheme=https"
+      - "traefik.http.routers.soul-studio-websecure.rule=Host(`${DOKPLOY_DOMAIN:?set-in-dokploy-env}`)"
+      - "traefik.http.routers.soul-studio-websecure.entrypoints=websecure"
+      - "traefik.http.routers.soul-studio-websecure.tls=true"
+      - "traefik.http.routers.soul-studio-websecure.tls.certresolver=letsencrypt"
       - "traefik.http.services.soul-studio.loadbalancer.server.port=3000"
 

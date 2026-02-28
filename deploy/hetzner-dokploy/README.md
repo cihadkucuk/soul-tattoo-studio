@@ -48,6 +48,8 @@ Add these variables:
 - `TELEGRAM_CHAT_ID`
 - `DOKPLOY_DOMAIN` (example: `soultattooatelier.com`)
 
+`DOKPLOY_DOMAIN` is required by `docker-compose.yml` Traefik labels. If missing, router rule cannot be created.
+
 Optional defaults:
 
 - `NODE_ENV=production`
